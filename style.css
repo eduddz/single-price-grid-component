@@ -1,0 +1,131 @@
+:root {  
+    --cyan: hsl(179, 62%, 43%);
+    --light-cyan: hsl(179, 55%, 50%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--light-gray);
+}
+
+header {
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    padding: 2rem 1rem;;
+}
+
+header h1 {
+    font-size: 24px;
+    color: var(--cyan);
+}
+
+header h2 {
+    margin: 1rem 0;
+    font-size: 18px;
+    color: var(--bright-yellow);
+}
+
+header p {
+    line-height: 1.8rem;
+    color: var(--grayish-blue);
+}
+
+.box {
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.box h3 {
+    margin-bottom: 1rem;
+}
+
+.one p {
+    display: flex;
+    align-items: center;
+}
+
+.one p span {
+    font-weight: 700;
+    font-size: 36px;
+    margin-right: 1rem;
+}
+
+.one button {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--bright-yellow);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    margin: 3rem 0 0;
+    padding: 0.7rem 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.one {
+    background-color: var(--cyan);
+}
+
+.two {
+    background-color: var(--light-cyan);
+    border-radius: 0 0 5px 5px;
+}
+
+.two li {
+    margin-bottom: 0.2rem;
+    color: var(--light-gray)
+}
+
+footer {
+    margin: 1rem 0;
+    text-align: center;
+    color: var(--grayish-blue);
+    font-size: 11px;
+}
+
+@media screen and (min-width: 900px) {
+    body{
+        margin: auto;
+        justify-content: center;
+        width: 800px;
+    }
+
+    header {
+        padding: 3rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box {
+        padding: 3rem;
+        width: 100%;
+    }
+
+    .one {
+        border-bottom-left-radius: 5px;
+    }
+
+    .two {
+        border-bottom-left-radius: 0;
+    }
+}

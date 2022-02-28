@@ -1,9 +1,13 @@
-# Frontend Mentor - Single price grid component
+# Single price grid component 🎈
 
 ## Welcome! 👋
 
 Desenvolvido com html e css. Layout first mobile, usando flexbox e media query
 
-![Design preview for the Single price grid component coding challenge](./design/desktop-design.jpg)
+## Layout Desktop 🎨💻
 
-![Design preview for the Single price grid component coding challenge](./design/mobile-design.jpg)
+![Layout Desktop](./images/layout-desktop.png)
+
+## Layout Mobile 🎨📱
+
+![Layout Mobile](./images/layout-mobile.png)
